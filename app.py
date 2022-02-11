@@ -26,7 +26,7 @@ def showImages():
             return "Image does not present"
     except Exception as e:
         print("No images found",e)
-        return "Please try with a different keyboard"
+        return "Please try with a different keyword"
 
 @app.route('/searchImages', methods=['GET','POST'])
 def searchImages():
